@@ -4,9 +4,20 @@
   "description": "Real time web application using NodeJS with socketIO",
   "main": "initialize.js",
   "scripts": {
-  	"start": "nodemon initialize",
+    "start": "node initialize.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "https://github.com/Bluebird2000/chatApplications"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "author": "Bluebird2000",
   "license": "ISC",
   "dependencies": {

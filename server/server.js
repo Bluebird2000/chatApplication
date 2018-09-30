@@ -12,7 +12,7 @@ const io = socketIO(server);
 io.on('connection', (socket) => {
     console.log('New user connected');
     socket.on('disconnect', () => {
-        console.log('User was disconnected');
+        console.log('user was disconnected');
     });
 });
 
