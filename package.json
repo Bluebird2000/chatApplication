@@ -5,13 +5,14 @@
   "main": "initialize.js",
   "scripts": {
     "start": "node initialize.js",
+    "dev": "nodemon initialize",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "8.11.2"
   },
   "repository": {
-    "type": "https://github.com/Bluebird2000/chatApplications"
+    "type": "https://github.com/Bluebird2000/chatApplication"
   },
   "keywords": [
     "node",
